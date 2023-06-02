@@ -1,0 +1,9 @@
+- blockName: core/button
+
+- name: test-button-1
+  label: Test Button 1
+  inline_style: .wp-block-button__link.is-style-test-button-1{background:red;color:white;}
+
+- name: test-button-2
+  label: Test Button 2
+  inline_style: .wp-block-button__link.is-style-test-button-2{background:black;color:white;}
