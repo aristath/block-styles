@@ -1,0 +1,9 @@
+- blockName: core/paragraph
+
+- name: test-paragraph-1
+  label: Test Button 1
+  inline_style: p.is-style-test-paragraph-1{background:red;color:white;}
+
+- name: test-paragraph-2
+  label: Test Button 2
+  inline_style: p.is-style-test-paragraph-2{background:black;color:white;}
