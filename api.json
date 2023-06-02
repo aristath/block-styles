@@ -1,0 +1,13 @@
+---
+---
+{
+	{% for file in site.data %}
+		"{{ file[1][0].blockName }}": [
+			{% for blockStyle in file[1] %}
+				{% unless forloop.first %}
+					{{ blockStyle | jsonify }}{% unless forloop.last %},{% endunless %}
+				{% endunless %}
+			{% endfor %}
+		]
+	{% endfor %}
+}
