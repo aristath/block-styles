@@ -51,7 +51,7 @@ class Theme_JSON {
 	 * 
 	 * @return void
 	 */
-	private function run() {
+	public function run() {
 		// Get the global styles post ID and data.
 		$this->global_styles_post_id = $this->get_global_styles_post_id();
 		$this->global_styles_data    = $this->get_user_global_styles();
