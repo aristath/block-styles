@@ -1,0 +1,41 @@
+{
+    "core/button": {
+        "label": "Button",
+        "styles": {
+            "button-red": {
+                "label": "Red button",
+                "style": {
+                    "color": {
+                        "text": "#ffffff",
+                        "background": "#ff0000"
+                    },
+                    "elements": {
+                        "link": {
+                            "color": {
+                                "text": "#ebebeb"
+                            }
+                        }
+                    },
+                    "css": "box-shadow: 2px 2px 0 #b30000; &:hover{ box-shadow: 5px 10px 0 #b30000; }, &:focus{ box-shadow: 0 10px 0 #b30000; }"
+                }
+            },
+            "button-blue": {
+                "label": "Blue button",
+                "style": {
+                    "color": {
+                        "text": "#ffffff",
+                        "background": "#0000ff"
+                    },
+                    "elements": {
+                        "link": {
+                            "color": {
+                                "text": "#ebebeb"
+                            }
+                        }
+                    },
+                    "css": "box-shadow: 2px 2px 0 #0000b3; &:hover{ box-shadow: 5px 10px 0 #0000b3; }, &:focus{ box-shadow: 0 10px 0 #0000b3; }"
+                }
+            }
+        }
+    }
+}
